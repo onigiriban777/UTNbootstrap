@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">  
+    <title>Lanzamientos</title>
+</head>
+<body>
+    <!--Navbar-->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light text-monospace fixed-top" id="navbar-sitio">
+        <a class="navbar-brand" href="index.html"><img src="https://img.icons8.com/cotton/64/000000/tetris-game-console.png"id="logo" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="lanzamientos.html">Lanzamientos<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tutoriales.html">Tutoriales<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Noticias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/carreras.html">Carreras</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+<!--Main-->
+<main class="container-fluid">
+<!--pages-name-->
+    <section class=" container-fluid indicador-pagina" >
+      <h1 class="pages-name">Lanzamientos</h1>
+    </section>
+<!--Noticias-->
+    <section class="row mx-auto mt-4" >
+    <h1 class="display-4">Mirá lo nuevo!</h1>
+    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur officiis, atque odio labore fugiat deleniti assumenda id necessitatibus a inventore et architecto minima ut nisi error corporis impedit suscipit quod laborum, quaerat modi commodi. Temporibus tempora ducimus nam voluptate placeat, animi illo!</p>
+    </section>
+    <!--Tarjetas noticias-->
+    <section id="noticias-cards" class="mt-3">
+      <div class="row row-cols-1 row-cols-md-3">
+        <div class="col mb-4">
+          <div class="card">
+            <img src="img/cp.jpg" class="card-img-top lanzamientos-img" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Cyberpunk 2077</h5>
+              <p class="card-text">Sigue la historia de V, una mercenaria de Night City, la metrópolis más violenta y peligrosa del futuro controlado por corporaciones.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="img/celeste.jpg" class="card-img-top lanzamientos-img" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Celeste</h5>
+              <p class="card-text">Ayuda a Madeline a sobrevivir a los demonios de su interior en su viaje hasta la cima de la montaña Celeste.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="img/hades.jpg" class="card-img-top  lanzamientos-img" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Hades</h5>
+              <p class="card-text">Desafía al dios de la muerte mientras te abres paso al mejor estilo hack and slash para escapar del Inframundo.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="img/spom.jpg" class="card-img-top lanzamientos-img" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Shady Part Of Me</h5>
+              <p class="card-text">Supera desafíos emocionales en una conmovedora aventura colmada de giros y sorpresas.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="img/sos.jpg" class="card-img-top lanzamientos-img" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sea of Solitude</h5>
+              <p class="card-text">Viaja con Kay, una joven solitaria convertida en monstruo. Explora un mundo en constante evolución donde nada es lo que parece.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="img/dq.jpg" class="card-img-top lanzamientos-img" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Dragon Quest XI</h5>
+              <p class="card-text">Luminario, un joven que desciende de un héroe legendario que derrotó a las fuerzas del mal en el remoto pasado.</p>
+            </div>
+          </div>
+        </div>
+    </section>
+    </main>
+    <footer>
+      <p id="footer-text" class="text-monospace font-weight-bold text-center">Footer</p>
+    </footer>
+    <!--scripts-->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+      </body>
+</html>
